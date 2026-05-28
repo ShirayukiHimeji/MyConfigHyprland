@@ -18,7 +18,7 @@ cd .. && rm -rf yay
 ```
 
 ### 2. Clone This Repo
-Pertama, clone :
+Second, clone this repo :
 ```bash
-git clone [https://github.com/ShirayukiHimeji/MyConfigHyprland.git](https://github.com/ShirayukiHimeji/MyConfigHyprland.git) ~/MyConfigHyprland
+git clone https://github.com/ShirayukiHimeji/MyConfigHyprland.git
 ```
