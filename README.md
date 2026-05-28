@@ -8,11 +8,13 @@ This is My Hyprland Config, how to use it
 
 If you have a aur [yay](https://github.com/jguer/yay) or [paru](https://github.com/Morganamilo/paru), this step 1 and 2, can be skipped
 
-### Before I lazy Update this
-Run this
+### I lazy Update this
+Before run this step, Run this:
+Just getting [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) and [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 ```bash
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 ```
 
 ### 1. Install [AUR](https://aur.archlinux.org/)
