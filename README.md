@@ -6,10 +6,10 @@ This is My Hyprland Config, how to use it
 > [!WARNING]
 > I Recomend backup first on your ~/.config, to avoid lost data
 
-If you have a aur yay or paru, this step 1 and 2, can be skipped
+If you have a aur [yay](https://github.com/jguer/yay) or [paru](https://github.com/Morganamilo/paru), this step 1 and 2, can be skipped
 
 ### 1. Install AUR
-first install aur, i using yay
+first install aur, i using [yay](https://github.com/jguer/yay)
 ```bash
 # Clone dan install yay
 sudo pacman -S --needed base-devel git
@@ -18,7 +18,7 @@ cd yay
 makepkg -si
 cd .. && rm -rf yay
 ```
-### 2. Run Command Before using yay
+### 2. Run Command Before using [yay](https://github.com/jguer/yay)
 ```bash
 yay -Y --gen-db
 yay -Syu --devel
