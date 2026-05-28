@@ -41,3 +41,15 @@ git clone https://github.com/ShirayukiHimeji/MyConfigHyprland.git ~/MyHyprlandCo
 ```bash
 cp ~/MyHyprlandConfig/. ~/.config
 ```
+
+### 6. Symlink .zshrc and hypr to config file this works
+Make sure backup first
+```bash
+mv ~/.local/share/hypr ~/.local/share/hypr.bak
+mv ~/.zshrc ~/.zshrc.bak
+```
+Then Symlink
+```bash
+ln -sf ~/.config/hypr ~/.local/share/hypr
+ln -sf ~/.config/zsh/.zshrc ~/.zshrc
+```
