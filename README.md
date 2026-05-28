@@ -37,7 +37,7 @@ forth, clone this repo :
 git clone https://github.com/ShirayukiHimeji/MyConfigHyprland.git ~/MyHyprlandConfig
 ```
 
-### 4. Just Copy These folder to your ~/.config
+### 5. Just Copy These folder to your ~/.config
 ```bash
 cp ~/MyHyprlandConfig/. ~/.config
 ```
