@@ -53,3 +53,6 @@ Then Symlink
 ln -sf ~/.config/hypr ~/.local/share/hypr
 ln -sf ~/.config/zsh/.zshrc ~/.zshrc
 ```
+
+### 7. Enjoy my Config
+Enjoy :)
