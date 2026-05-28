@@ -25,8 +25,8 @@ yay -Syu --devel
 yay -Y --devel --save
 ```
 
-### 3. Install Noctalia
-Install Noctalia
+### 3. Install [Noctalia](https://noctalia.dev/)
+Install [Noctalia](https://noctalia.dev/)
 ```bash
 yay -S noctalia
 ```
