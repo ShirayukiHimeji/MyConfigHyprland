@@ -8,6 +8,13 @@ This is My Hyprland Config, how to use it
 
 If you have a aur [yay](https://github.com/jguer/yay) or [paru](https://github.com/Morganamilo/paru), this step 1 and 2, can be skipped
 
+### Before I lazy Update this
+Run this
+```bash
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh install.sh
+```
+
 ### 1. Install [AUR](https://aur.archlinux.org/)
 first install [aur](https://aur.archlinux.org/), i using [yay](https://github.com/jguer/yay)
 ```bash
