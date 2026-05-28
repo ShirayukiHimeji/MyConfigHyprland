@@ -8,8 +8,8 @@ This is My Hyprland Config, how to use it
 
 If you have a aur [yay](https://github.com/jguer/yay) or [paru](https://github.com/Morganamilo/paru), this step 1 and 2, can be skipped
 
-### 1. Install AUR
-first install aur, i using [yay](https://github.com/jguer/yay)
+### 1. Install [AUR](https://aur.archlinux.org/)
+first install [aur](https://aur.archlinux.org/), i using [yay](https://github.com/jguer/yay)
 ```bash
 # Clone dan install yay
 sudo pacman -S --needed base-devel git
