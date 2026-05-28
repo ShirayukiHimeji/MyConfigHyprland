@@ -3,14 +3,9 @@ rm -r $HOME/.config/kitty
 cp -r $HOME/.config/kittyjakoolit $HOME/.config/kitty
 }
 
-setortugas(){
-rclone mount ISKStudentBSI: ~/gdrive/public --vfs-cache-mode writes --daemon
-echo "Your mount send to gdrive on public"
-}
-
-StartISKDrive(){
-rclone mount ISKDrive: ~/gdrive/private --vfs-cache-mode writes --daemon
-echo "Your mount send to gdrive on private"
+elylogo(){
+kitty +kitten icat --align left "$(find ~/.config/Elysia/bash/ -type f -name '*.png' | shuf -n 1)"
+date "+%A, %d %B %Y" && printf "\n"
 }
 
 startserver(){
@@ -22,7 +17,7 @@ systemctl stop httpd mysql
 }
 
 #source ~/.config/zshrc.d/dots-hyprland.zsh
-echo "$(~/.local/bin/elylogo) \n\n"
+echo "$(elylogo) \n\n"
 alias clear="clear&&elylogo"
 alias activate='source $HOME/.venv/bin/activate'
 clear
