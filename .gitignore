@@ -10,5 +10,8 @@
 *.log.*
 *.sig
 
+.zcompdump-ElysiaKDE-5.9.zwc
+.zcompdump-ElysiaKDE-5.9
+
 pkg/
 src/
